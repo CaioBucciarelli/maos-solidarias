@@ -1,29 +1,38 @@
 import "../css/style.css"
+import imgHistoria from "../assets/imgs/img-historia.png";
+import imgMissao from "../assets/imgs/img-missao.png";
  
 function SobreConteudo() {
 
 
 return (
   <main>
-    <div class="titulo-bg">
-      <div class="titulo container">
-        <p class="font-2-l-b cor-5">Nossa história</p>
-        <h1 class="font-1-xxl cor-0">sobre nós<span class="cor-p1">.</span></h1>
+    <div className="titulo-bg">
+      <div className="titulo container">
+        <p>saiba mais sobre a nossa história</p>
+        <h1>Quem nós Somos</h1>
       </div>
     </div>
-    <div class="sobre font-2-s cor-10 container">
-      <h2 class="font-1-l cor-11">Escolha a Pharmacy</h2>
-      <div className="divisao-img-texto">
-        <p>Há muitos motivos pelos quais você deve escolher a nossa farmácia como sua opção preferida. Nós nos orgulhamos de oferecer um atendimento personalizado e acolhedor a todos os nossos clientes. Nossos profissionais de saúde e farmacêuticos são altamente qualificados e estão sempre prontos para ouvir suas preocupações, responder às suas perguntas e fornecer aconselhamento especializado. Valorizamos a construção de relacionamentos de confiança com nossos clientes e nos esforçamos para oferecer a melhor experiência possível para todos. Valorizamos a construção de relacionamentos de confiança com nossos.</p>
-        {/* <img src={ImgSobre} alt="" /> */}
+    <article className="sobre-conteudo container">
+      <div className="historia">
+        <img src={imgHistoria} alt="" />
+        <div>
+          <h2>História</h2>
+          <p>A ONG Mãos Solidárias nasceu do desejo de oferecer um lar seguro e acolhedor para todas as famílias. Acreditamos que um lar vai além das necessidades básicas e deve ser um lugar de amor e cuidado, um ponto de partida para sonhos e conquistas. Contamos com voluntários dedicados e o apoio generoso da comunidade para construir lares e alicerces de esperança. </p>
+          <p>Oferecemos não apenas moradia, mas também apoio emocional, educação e oportunidades de emprego. Nosso objetivo é sensibilizar a sociedade sobre a importância de ajudar aqueles que buscam um lar. Ao unir forças, empoderamos comunidades e transformamos vidas. Junte-se a nós na busca por lares felizes, onde as famílias possam crescer, sorrir e prosperar.</p>
+          <p>Se você deseja fazer parte dessa jornada de Mãos Solidárias, seja como voluntário, doador ou apoiador, junte-se a nós na busca por lares felizes. Juntos, podemos criar um impacto duradouro, construir esperança e ajudar famílias a encontrarem um lar onde possam criar memórias, crescer e florescer.</p>
+        </div>
       </div>
-      <h2 class="font-1-l cor-11">Nossa Visão</h2>
-      <div className="divisao-texto-img">
-        <p>A Pharmacy é uma farmácia com uma visão singular e inovadora no setor farmacêutico. Sua missão é oferecer um ambiente acolhedor, acessível e centrado no cliente, onde a saúde e o bem-estar são prioridades. A visão da Pharmacy é ir além de ser apenas uma loja de medicamentos e se tornar um centro de referência para a saúde e cuidados pessoais. Nós queremos o bem para todos aqueles clientes e também que fiquem satisfeitos.</p>
-        {/* <img src={ImgSobre1} alt="mulher analisando no microscópio." className="img-1" /> */}
-        <p>Além disso, a Pharmacy tem como objetivo fornecer uma ampla gama de serviços de saúde e bem-estar, além da simples dispensação de medicamentos. Ela oferece programas de gerenciamento de doenças crônicas, como diabetes e hipertensão, onde os clientes podem receber orientações especializadas e acompanhamento regular para melhorar sua qualidade de vida. A farmácia também realiza campanhas de conscientização sobre a importância da prevenção e detecção precoce de doenças, oferecendo serviços de rastreamento e testes rápidos.</p>
+
+      <div className="missao">
+        <div>
+          <h2>Nossa Missão</h2>
+          <p>Nossa missão na ONG Mãos Solidárias é, acima de tudo, ajudar pessoas a encontrarem um lar. Acreditamos que ter um lugar seguro e acolhedor para viver é fundamental para o bem-estar e o desenvolvimento de cada indivíduo e de suas famílias. Sabemos que um lar vai além das paredes físicas; é um ambiente onde o amor, o respeito e a dignidade podem florescer.</p>
+          <p>Para realizar nossa missão, trabalhamos incansavelmente para fornecer moradia apropriada para famílias que enfrentam dificuldades em encontrar um lugar para chamar de seu. Construímos casas, apartamentos e alojamentos que atendem às necessidades básicas de abrigo. No entanto, nosso compromisso vai além disso. Ajudamos a criar comunidades onde a solidariedade prevalece, onde há apoio emocional e oportunidades para crescimento.</p>
+        </div>
+        <img src={imgMissao} alt="" />
       </div>
-    </div>
+    </article>
   </main>
   )
 }

@@ -7,6 +7,8 @@
 /* Home */
 @import './home/introducao.css';
 @import './home/separador.css';
+@import './home/ajuda.css';
+@import './home/numeros.css';
 
 /* Sobre */
 @import './sobre/sobre.css';

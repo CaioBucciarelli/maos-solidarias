@@ -1,0 +1,51 @@
+.ajuda {
+    padding: 120px 0;
+}
+
+.ajuda h1 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: 600;
+    font-size: 2.5rem;
+}
+
+.ajuda-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.ajuda-item {
+    border: 2px solid #CFCFCF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ajuda-item div {
+    display: flex;
+    align-items: end;
+}
+
+.ajuda-item div h2 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.ajuda-item p {
+    margin-top: 16px;
+}
+
+.ajuda-item:nth-child(3n) {
+    grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+    .ajuda {
+        padding: 60px 0;
+    }
+    .ajuda-conteudo {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+}

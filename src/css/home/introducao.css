@@ -1,5 +1,7 @@
 .introducao-bg {
-  background: url('../../assets/imgs/img-introducao.png') no-repeat;
+  background: url('../../assets/imgs/img-introducao.png') repeat;
+  box-sizing: border-box;
+  object-fit: cover;
 }
 
 .introducao-color {

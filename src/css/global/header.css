@@ -1,5 +1,5 @@
 .header-bg {
-  background: var(--cor-11);
+  background: #111;
 }
 
 .header {
@@ -19,6 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   gap:  40px;
+  color: #fff;
 }
 
 .header-menu a {
@@ -33,7 +34,7 @@
   width: 0%;
   display: block;
   height: 2px;
-  background: var(--cor-0);
+  background: #fff;
   transition: 0.3s;
 }
 

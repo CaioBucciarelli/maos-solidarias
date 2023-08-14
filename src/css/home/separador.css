@@ -13,6 +13,25 @@
     align-items: center;
     gap: 20px;
     max-width: 27ch;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Roboto';
     font-weight: 500;
+}
+
+@media (max-width: 800px) {
+    .separador {
+        padding: 20px 0;
+    }
+    .separador li {
+        gap: 12px;
+        font-size: .75rem;
+    }
+    .icone-separador {
+        width: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .separador-bg {
+        display: none;
+    }
 }

@@ -1,0 +1,103 @@
+.numeros-bg {
+    background: #FFE9BF;
+}
+
+.numeros {
+    padding: 60px 0;
+}
+
+.numeros h1 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.numeros > p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 500;
+    color: #707070;
+}
+
+.numeros ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: end;
+    margin-top: 40px;
+}
+
+.numeros ul li {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.numeros-conteudo {
+    background: #FFA800;
+    padding: 0px 100px 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.criancas-atendidas {
+    padding-top: 100px;
+}
+
+.criancas-atendidas-before::before {
+    content: '419';
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.familias-atendidas {
+    padding-top: 140px;
+}
+
+.familias-atendidas-before::before {
+    content: '587';
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.atividades-mes {
+    padding-top: 80px;
+}
+
+.atividades-mes-before::before {
+    content: '346';
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.casas-construidas {
+    padding-top: 20px;
+}
+
+.casas-construidas-before::before {
+    content: '26';
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.numeros-texto {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #111;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .numeros ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .numeros ul {
+        grid-template-columns: 1fr;
+    }
+}

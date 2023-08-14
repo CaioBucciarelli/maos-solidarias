@@ -7,15 +7,15 @@ return (
     <section className="separador-bg">
         <ul className="separador container">
             <li>
-                <img src={iconeCasinha} alt="" />
+                <img className="icone-separador" src={iconeCasinha} alt="" />
                 <p>Ajude famílias a terem um lar aconchegante</p>
             </li>
             <li>
-                <img src={iconeCasinha} alt="" />
+                <img className="icone-separador" src={iconeCasinha} alt="" />
                 <p>Ajude famílias a terem um lar aconchegante</p>
             </li>
             <li>
-                <img src={iconeCasinha} alt="" />
+                <img className="icone-separador" src={iconeCasinha} alt="" />
                 <p>Ajude famílias a terem um lar aconchegante</p>
             </li>
         </ul>

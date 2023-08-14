@@ -10,13 +10,13 @@ function Footer() {
 return (
     <footer class="footer-bg">
     <div class="footer container">
-      <img className="footer-logo" src={logo} alt="Farmacy" />
+      <img className="footer-logo" src={logo} alt="Mãos Solidárias" />
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">Contato</h3>
         <ul class="font-2-m cor-5">
           <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
-          <li><a href="mailto:contato@pharmacy.com">contato@pharmacy.com</a></li>
-          <li>Rua Ali Perto, 42 - São Paulo</li>
+          <li><a href="mailto:contato@maossolidarias.com">contato@maossolidarias.com</a></li>
+          <li>Fiap School, 97 - São Paulo</li>
           <li>São Paulo - SP</li>
         </ul>
         <div class="footer-redes">
@@ -35,7 +35,7 @@ return (
           </ul>
         </nav>
       </div>
-      <p class="footer-copy font-2-m cor-6">Pharmacy © Alguns direitos reservados.</p>
+      <p class="footer-copy font-2-m cor-6">Mãos Solidárias © Alguns direitos reservados.</p>
     </div>
   </footer>
   )
