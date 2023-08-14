@@ -1,0 +1,67 @@
+.introducao-bg {
+  background: url('../../assets/imgs/img-introducao.png') no-repeat;
+}
+
+.introducao-color {
+  background: linear-gradient(90deg, #FFF 40%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 200px 0 120px 0;
+}
+
+.introducao h1 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.introducao h1::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 100%;
+  background: #FFA800;
+  position: absolute;
+  left: -4px;
+}
+
+@media (max-width: 1000px) {
+  .introducao {
+    padding: 120px 0;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    padding: 60px 0;
+  }
+
+  .introducao h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    padding: 60px 0;
+    grid-template-columns: 1fr;
+  }
+
+  .introducao h1 {
+    text-align: center;
+  }
+
+  .introducao h1::before {
+    display: none;
+  }
+}
