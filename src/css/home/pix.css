@@ -1,0 +1,33 @@
+.pix {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pix h1 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.pix p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pix img {
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .pix h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .pix h1 {
+        font-size: 1.5rem;
+    }
+}

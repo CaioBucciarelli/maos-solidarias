@@ -4,6 +4,7 @@ import Introducao from "../interpolacao/introducao"
 import Separador from "../interpolacao/separador-introducao"
 import Ajuda from "../interpolacao/como-ajudar"
 import Numeros from "../interpolacao/numeros"
+import Pix from "../interpolacao/pix"
 import Footer from "../interpolacao/footer"
 
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
             <Separador/>
             <Ajuda/>
             <Numeros/>
+            <Pix/>
             <Footer/>
         </div>
     )

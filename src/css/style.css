@@ -9,6 +9,7 @@
 @import './home/separador.css';
 @import './home/ajuda.css';
 @import './home/numeros.css';
+@import './home/pix.css';
 
 /* Sobre */
 @import './sobre/sobre.css';
