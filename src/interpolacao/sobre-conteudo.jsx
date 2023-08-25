@@ -27,8 +27,8 @@ return (
       <div className="missao">
         <div>
           <h2>Nossa Missão</h2>
-          <p>Nossa missão na ONG Mãos Solidárias é, acima de tudo, ajudar pessoas a encontrarem um lar. Acreditamos que ter um lugar seguro e acolhedor para viver é fundamental para o bem-estar e o desenvolvimento de cada indivíduo e de suas famílias. Sabemos que um lar vai além das paredes físicas; é um ambiente onde o amor, o respeito e a dignidade podem florescer.</p>
-          <p>Para realizar nossa missão, trabalhamos incansavelmente para fornecer moradia apropriada para famílias que enfrentam dificuldades em encontrar um lugar para chamar de seu. Construímos casas, apartamentos e alojamentos que atendem às necessidades básicas de abrigo. No entanto, nosso compromisso vai além disso. Ajudamos a criar comunidades onde a solidariedade prevalece, onde há apoio emocional e oportunidades para crescimento.</p>
+          <p>Nós exemplificamos a convergência entre solidariedade e tecnologia moderna. Oferecemos uma experiência de doação interativa, compartilhando histórias e imagens das famílias ajudadas para estabelecer conexões emocionais entre doadores e beneficiários. A inteligência artificial personaliza sugestões de campanhas com base nas preferências dos doadores, fomentando doações recorrentes e laços duradouros.</p>
+          <p>A ONG também organizou parcerias com empresas locais e startups de tecnologia para impulsionar ainda mais sua missão. Por exemplo, um aplicativo móvel permite que as pessoas doem com facilidade, recebam atualizações instantâneas sobre as campanhas em andamento e compartilhem histórias inspiradoras em suas redes sociais, ampliando assim o alcance da solidariedade.</p>
         </div>
         <img src={imgMissao} alt="" />
       </div>
